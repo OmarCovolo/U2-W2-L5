@@ -1,0 +1,44 @@
+html {
+  height: 100%;
+}
+html body {
+  margin: 0;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+body nav {
+  background-color: black;
+  height: 8%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  box-shadow: 0px 0px 30px 15px rgba(0, 0, 0, 0.6);
+}
+body nav ul {
+  display: flex;
+  list-style-type: none;
+  padding-right: 20%;
+  padding-top: 2%;
+}
+body nav ul li {
+  padding-left: 10%;
+}
+body nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+body #banner {
+  background-image: url(../../white-cretto-burri.jpg);
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.8);
+  background-size: cover;
+}
+body .container footer {
+  box-shadow: inset 0px 15px 15px 10px rgba(255, 255, 255, 0.6);
+}/*# sourceMappingURL=app.css.map */

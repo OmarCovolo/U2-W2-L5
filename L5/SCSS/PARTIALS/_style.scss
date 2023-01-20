@@ -1,0 +1,32 @@
+body{font-family: 'Roboto', sans-serif;
+    nav{ background-color: black;
+        height: 8%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        box-shadow: 0px 0px 30px 15px rgba(0, 0, 0, 0.6);
+        
+        
+        ul{display: flex;
+            list-style-type: none;
+            padding-right: 20%;
+            padding-top: 2%;
+
+            li{ padding-left: 10%;
+                a{color: white;
+                text-decoration: none;}
+                
+            }
+            }
+        }
+        #banner{
+            background-image: url(../../white-cretto-burri.jpg);
+            box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.8);
+        background-size: cover;}
+
+        .container{
+            footer{
+                box-shadow: inset 0px 15px 15px 10px rgba(255, 255, 255, 0.6);
+            }
+        }
+    }
